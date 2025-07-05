@@ -1,7 +1,7 @@
 // File: api/bot.js
 
 export default async function handler(req, res) {
-  const token = "8079187747:AAElqVMFLFrtMwb7vNAl5LNb1WWJwx9-v5g";
+  const token = "7702650514:AAGSQcnJ8zZ3mRchpbPb8ntO0fAdZvpPjkY-v5g";
   const body = req.body;
 
   if (!body || !body.message || !body.message.text) {
